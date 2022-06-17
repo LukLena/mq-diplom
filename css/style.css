@@ -233,7 +233,7 @@ margin-right: auto;
   cursor: pointer;
   text-decoration: none;
   line-height: 1.2;
-  /*max-width: 350px;*/
+  max-width: 350px;
 }
 .about-article {
   display: inline-flex;
@@ -705,19 +705,20 @@ max-width: 100%;
 }
 .right-article {
 width: auto;
-max-width: 100%;
+
 }
 .photo_new{
-width: 100%;
+width: auto;
+    max-width: 100%;
 }
 .travel {
 width: auto;
 }
 .heading-artical {
-width: auto;
+width: 60%;
 }
 .photo{
-width: auto;
+width: 40%;
 }
 .news_trend:nth-of-type(1n + 2) {
 margin-left: 2.5px;  
@@ -745,7 +746,7 @@ justify-content: space-around;
 }
 .text-note {
 width: auto;
-max-width: 100%;  
+/*max-width: 100%; */ 
 }
 .img_shop {
 width: auto;
@@ -754,7 +755,7 @@ max-width: 100%;
 .shop_photo {
  padding-left: 0px;     
 }
-   
+  
 }
 @media (min-width: 1201px){
 .news_trend:nth-of-type(1n + 2) {
@@ -769,9 +770,9 @@ background-size: cover;
         width: 100%;
     }
     .new-content {
-        width: 100%;
-        
+        width: 100%;  
     }
+
 }
 @media (max-width: 640px) and (orientation: landscape) , (max-width: 1200px) and (orientation: portrait)  {
 .header { 
@@ -804,7 +805,7 @@ width: calc( 49.8% - 2px);
 background-size: cover;
 margin-top: 2px;
 }
-    .photo_new{
+.photo_new{
         width: auto;
         
     }
@@ -843,15 +844,14 @@ opacity: 0;
 cursor: pointer;
 z-index: 1;
 }
-
 .body { 
 width: calc(100% - 70px);   
 margin-left: 35px;
 margin-right: 35px; 
  
     }
-    .picture-new {
-        display: block;
+.picture-new {
+display: block;
     }
 .articles {
 /* было flex-grow: 2;*/
@@ -859,6 +859,10 @@ display: flex;
 flex-direction: column;
     width: 60%;
     }
+.text-note {
+width: auto;
+max-width: 100%;
+}
 .travel {
   display: flex;
   flex-direction: column;
@@ -866,7 +870,7 @@ flex-direction: column;
 .photo {
  width: 100%;
 }
-    .search-input{
+.search-input{
         width: 100%;
     }
     .new {
@@ -929,9 +933,9 @@ height: 3px;
 border: none;    
 margin-top: 25px;
 }
-.vmagaz{
+/*.vmagaz{
 width: 100%;
-}
+}*/
 }
 
 @media (max-width: 640px) and (orientation: portrait) {
@@ -1092,6 +1096,7 @@ align-self: center;
     }
 .text-note{
 width: auto;
+max-width: 100%;
 }
 .vmagaz {
 width: auto;
