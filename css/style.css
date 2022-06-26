@@ -424,7 +424,7 @@ a {
   padding-left: 0px;
   margin-bottom: 20px;
 }
-.tag1 {
+.news-tag {
   display: inline-block;
   box-sizing: content-box;
   border: 3px solid #eeeeee;
@@ -492,7 +492,7 @@ a {
     max-width: 100%;
     text-align: center;
 }
-.pillow{
+.product{
   width: auto;
   max-width: 340px; 
 } 
@@ -729,14 +729,14 @@ max-width: 100%;
 margin-left: 35px;
 margin-right: 35px;
 }
-.pillow {
+.product {
 width: calc(33% - 10px);
 text-align: center;
 }
-.pillow:nth-child(2n){
+/*.product:nth-child(2n){
 margin-left: 5px;
 margin-right: 5px;
-}
+}*/
 .about_shop {
 margin-left: 20px;
 margin-right: 20px;
@@ -746,7 +746,6 @@ justify-content: space-around;
 }
 .text-note {
 width: auto;
-/*max-width: 100%; */ 
 }
 .img_shop {
 width: auto;
@@ -801,7 +800,7 @@ background-size: cover;
   flex-wrap: wrap;
 }
 .news_trend { 
-width: calc( 49.8% - 2px);
+width: calc( 50% - 2px);
 background-size: cover;
 margin-top: 2px;
 }
@@ -918,7 +917,7 @@ margin-right: 35px;
     flex-wrap: wrap;
     justify-content: space-between;
     }
-.pillow {
+.product {
 width: calc(50% - 40px);
 margin-bottom: 40px;
 /*margin-left: 20px;
@@ -1062,7 +1061,7 @@ margin-right: 0;
 justify-content: center;
 flex-direction: column;
     } 
-.pillow {
+.product {
 margin-left: 60px;
 margin-right: 60px;
 width: auto;
